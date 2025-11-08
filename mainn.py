@@ -7,7 +7,7 @@ import pygame  # for background music
 #  MUSIC SETUP 
 pygame.mixer.init()
 pygame.mixer.music.load("background.mp3")  
-pygame.mixer.music.set_volume(0.3) # setting the volume
+pygame.mixer.music.set_volume(0.5) # setting the volume
 pygame.mixer.music.play(-1) # -1 indicates looping forever
 
 #  WINDOW SETUP
